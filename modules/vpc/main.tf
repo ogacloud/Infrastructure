@@ -1,7 +1,5 @@
 provider "aws" {
   region = "us-east-1"
-  secret_key = "P2udgl6BP1NF5t15B1fuOF2lYQoegqUYIeU1afgf"
-  access_key = "AKIA4ZOZ3I4ULOBWAXPG"
 }
 
 resource "aws_vpc" "flameset-vpc" {
