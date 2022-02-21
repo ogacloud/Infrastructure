@@ -10,7 +10,7 @@
 */
 
 
-resource "aws_s3_bucket" "new" {
+resource "aws_s3_bucket" "newnew" {
   bucket = var.bucket_name
 
   tags = {
